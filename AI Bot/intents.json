@@ -1,0 +1,87 @@
+{
+    "intents": [{
+            "tag": "greetings",
+            "pattern": [
+                "hello",
+                "hi",
+                "good morning",
+                "how are you?",
+                "hey",
+                "what's up",
+                "good evening",
+                "good afternoon"
+            ],
+            "response": [
+                "HI!!",
+                "Hello!",
+                "How can I help you??",
+                "What I can do For You??"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "pattern": [
+                "have a good day",
+                "Good bye",
+                "cya",
+                "see you later",
+                "I am leaving",
+                "bye",
+                "cao"
+            ],
+            "response": [
+                "Sad to See you go:(",
+                "Goodbye!!"
+            ]
+        },
+        {
+            "tag": "name",
+            "pattern": [
+                "what is your name?",
+                "who are you?",
+                "introduce yourself",
+                "what can I call you"
+            ],
+            "response": [
+                "My name is Cipher, The bot",
+                "I am Cipher, The bot",
+                "you can call me Cipher",
+                "I'm Cipher"
+            ]
+        },
+        {
+            "tag": "shop",
+            "pattern": [
+                "Id like to buy something",
+                "what are your products?",
+                "what do you recommend",
+                "what are you selling"
+            ],
+            "response": [
+                "courses are been sold over here"
+            ]
+        },
+        {
+            "tag": "hours",
+            "pattern": [
+                "when are you guys open",
+                "what are your hours",
+                "hours of opening"
+            ],
+            "response": [
+                "27/7"
+            ]
+        },
+        {
+            "tag": "stocks",
+            "pattern": [
+                "what stocks do I own",
+                "what company I am investing",
+                "what are my holdings"
+            ],
+            "response": [
+                "You own the following shares: Nayakka, Apple, MRF, Zomato"
+            ]
+        }
+    ]
+}
